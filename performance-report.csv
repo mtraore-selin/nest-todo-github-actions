@@ -1,0 +1,30 @@
+NAME,DURATION,STATUS
+TodoController should be defined,9,passed
+TodoController #getAll should be defined,2,passed
+TodoController #getAll should call service.getAll,1,passed
+TodoController #get should be defined,1,passed
+TodoController #get should call service.get,2,passed
+TodoController #create should be defined,1,passed
+TodoController #create should call service.create,1,passed
+TodoController #update should be defined,1,passed
+TodoController #update should call service.update,2,passed
+TodoController #delete should be defined,1,passed
+TodoController #delete should call service.delete,1,passed
+TodoController #markAsInActive should be defined,1,passed
+TodoController #markAsInActive should call service.markAsInActive,1,passed
+TodoModule should compile the module,2,passed
+TodoModule should have Todo components,1,passed
+TodoService should have the service defined,194,passed
+TodoService #getAll should be defined,80,passed
+TodoService #getAll should call the database,87,passed
+TodoService #getById should be defined,75,passed
+TodoService #getById should call the database,88,passed
+TodoService #create should be defined,75,passed
+TodoService #create should call the database,86,passed
+TodoService #update should be defined,74,passed
+TodoService #update should call the database,79,passed
+TodoService #delete should be defined,75,passed
+TodoService #delete should call the database,84,passed
+TodoService #markAsInActive should be defined,74,passed
+TodoService #markAsInActive when inactive is called should call the databaseService.get,86,passed
+TodoService #markAsInActive when inactive is called should call the databaseService.update,73,passed

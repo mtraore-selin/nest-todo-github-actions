@@ -1,0 +1,147 @@
+[
+  {
+    "duration": 9,
+    "fullName": "TodoController should be defined",
+    "status": "passed"
+  },
+  {
+    "duration": 2,
+    "fullName": "TodoController #getAll should be defined",
+    "status": "passed"
+  },
+  {
+    "duration": 1,
+    "fullName": "TodoController #getAll should call service.getAll",
+    "status": "passed"
+  },
+  {
+    "duration": 1,
+    "fullName": "TodoController #get should be defined",
+    "status": "passed"
+  },
+  {
+    "duration": 2,
+    "fullName": "TodoController #get should call service.get",
+    "status": "passed"
+  },
+  {
+    "duration": 1,
+    "fullName": "TodoController #create should be defined",
+    "status": "passed"
+  },
+  {
+    "duration": 1,
+    "fullName": "TodoController #create should call service.create",
+    "status": "passed"
+  },
+  {
+    "duration": 1,
+    "fullName": "TodoController #update should be defined",
+    "status": "passed"
+  },
+  {
+    "duration": 2,
+    "fullName": "TodoController #update should call service.update",
+    "status": "passed"
+  },
+  {
+    "duration": 1,
+    "fullName": "TodoController #delete should be defined",
+    "status": "passed"
+  },
+  {
+    "duration": 1,
+    "fullName": "TodoController #delete should call service.delete",
+    "status": "passed"
+  },
+  {
+    "duration": 1,
+    "fullName": "TodoController #markAsInActive should be defined",
+    "status": "passed"
+  },
+  {
+    "duration": 1,
+    "fullName": "TodoController #markAsInActive should call service.markAsInActive",
+    "status": "passed"
+  },
+  {
+    "duration": 2,
+    "fullName": "TodoModule should compile the module",
+    "status": "passed"
+  },
+  {
+    "duration": 1,
+    "fullName": "TodoModule should have Todo components",
+    "status": "passed"
+  },
+  {
+    "duration": 194,
+    "fullName": "TodoService should have the service defined",
+    "status": "passed"
+  },
+  {
+    "duration": 80,
+    "fullName": "TodoService #getAll should be defined",
+    "status": "passed"
+  },
+  {
+    "duration": 87,
+    "fullName": "TodoService #getAll should call the database",
+    "status": "passed"
+  },
+  {
+    "duration": 75,
+    "fullName": "TodoService #getById should be defined",
+    "status": "passed"
+  },
+  {
+    "duration": 88,
+    "fullName": "TodoService #getById should call the database",
+    "status": "passed"
+  },
+  {
+    "duration": 75,
+    "fullName": "TodoService #create should be defined",
+    "status": "passed"
+  },
+  {
+    "duration": 86,
+    "fullName": "TodoService #create should call the database",
+    "status": "passed"
+  },
+  {
+    "duration": 74,
+    "fullName": "TodoService #update should be defined",
+    "status": "passed"
+  },
+  {
+    "duration": 79,
+    "fullName": "TodoService #update should call the database",
+    "status": "passed"
+  },
+  {
+    "duration": 75,
+    "fullName": "TodoService #delete should be defined",
+    "status": "passed"
+  },
+  {
+    "duration": 84,
+    "fullName": "TodoService #delete should call the database",
+    "status": "passed"
+  },
+  {
+    "duration": 74,
+    "fullName": "TodoService #markAsInActive should be defined",
+    "status": "passed"
+  },
+  {
+    "duration": 86,
+    "fullName": "TodoService #markAsInActive when inactive is called should call the databaseService.get",
+    "status": "passed"
+  },
+  {
+    "duration": 73,
+    "fullName": "TodoService #markAsInActive when inactive is called should call the databaseService.update",
+    "status": "passed"
+  }
+]

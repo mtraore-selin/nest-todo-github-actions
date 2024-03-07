@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="29" failures="0" errors="0" time="3.901">
+  <testsuite name="TodoController" errors="0" failures="0" skipped="0" timestamp="2024-03-07T20:59:41" time="1.775" tests="13">
+    <testcase classname="TodoController should be defined" name="TodoController should be defined" time="0.009">
+    </testcase>
+    <testcase classname="TodoController #getAll should be defined" name="TodoController #getAll should be defined" time="0.002">
+    </testcase>
+    <testcase classname="TodoController #getAll should call service.getAll" name="TodoController #getAll should call service.getAll" time="0.001">
+    </testcase>
+    <testcase classname="TodoController #get should be defined" name="TodoController #get should be defined" time="0.001">
+    </testcase>
+    <testcase classname="TodoController #get should call service.get" name="TodoController #get should call service.get" time="0.002">
+    </testcase>
+    <testcase classname="TodoController #create should be defined" name="TodoController #create should be defined" time="0.001">
+    </testcase>
+    <testcase classname="TodoController #create should call service.create" name="TodoController #create should call service.create" time="0.001">
+    </testcase>
+    <testcase classname="TodoController #update should be defined" name="TodoController #update should be defined" time="0.001">
+    </testcase>
+    <testcase classname="TodoController #update should call service.update" name="TodoController #update should call service.update" time="0.002">
+    </testcase>
+    <testcase classname="TodoController #delete should be defined" name="TodoController #delete should be defined" time="0.001">
+    </testcase>
+    <testcase classname="TodoController #delete should call service.delete" name="TodoController #delete should call service.delete" time="0.001">
+    </testcase>
+    <testcase classname="TodoController #markAsInActive should be defined" name="TodoController #markAsInActive should be defined" time="0.001">
+    </testcase>
+    <testcase classname="TodoController #markAsInActive should call service.markAsInActive" name="TodoController #markAsInActive should call service.markAsInActive" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="TodoModule" errors="0" failures="0" skipped="0" timestamp="2024-03-07T20:59:41" time="2.145" tests="2">
+    <testcase classname="TodoModule should compile the module" name="TodoModule should compile the module" time="0.002">
+    </testcase>
+    <testcase classname="TodoModule should have Todo components" name="TodoModule should have Todo components" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="TodoService" errors="0" failures="0" skipped="0" timestamp="2024-03-07T20:59:41" time="3.177" tests="14">
+    <testcase classname="TodoService should have the service defined" name="TodoService should have the service defined" time="0.194">
+    </testcase>
+    <testcase classname="TodoService #getAll should be defined" name="TodoService #getAll should be defined" time="0.08">
+    </testcase>
+    <testcase classname="TodoService #getAll should call the database" name="TodoService #getAll should call the database" time="0.087">
+    </testcase>
+    <testcase classname="TodoService #getById should be defined" name="TodoService #getById should be defined" time="0.075">
+    </testcase>
+    <testcase classname="TodoService #getById should call the database" name="TodoService #getById should call the database" time="0.088">
+    </testcase>
+    <testcase classname="TodoService #create should be defined" name="TodoService #create should be defined" time="0.075">
+    </testcase>
+    <testcase classname="TodoService #create should call the database" name="TodoService #create should call the database" time="0.086">
+    </testcase>
+    <testcase classname="TodoService #update should be defined" name="TodoService #update should be defined" time="0.074">
+    </testcase>
+    <testcase classname="TodoService #update should call the database" name="TodoService #update should call the database" time="0.079">
+    </testcase>
+    <testcase classname="TodoService #delete should be defined" name="TodoService #delete should be defined" time="0.075">
+    </testcase>
+    <testcase classname="TodoService #delete should call the database" name="TodoService #delete should call the database" time="0.084">
+    </testcase>
+    <testcase classname="TodoService #markAsInActive should be defined" name="TodoService #markAsInActive should be defined" time="0.074">
+    </testcase>
+    <testcase classname="TodoService #markAsInActive when inactive is called should call the databaseService.get" name="TodoService #markAsInActive when inactive is called should call the databaseService.get" time="0.086">
+    </testcase>
+    <testcase classname="TodoService #markAsInActive when inactive is called should call the databaseService.update" name="TodoService #markAsInActive when inactive is called should call the databaseService.update" time="0.073">
+    </testcase>
+  </testsuite>
+</testsuites>
